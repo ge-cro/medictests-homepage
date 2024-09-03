@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	opacity: 1;
+}
+
+html {
+   scroll-behavior: smooth;
+	font-size: 62.5%!important;
+ 
+}
+ 
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    scroll-behavior: smooth;
+    color: $font-color;
+}
+ 
+
+blockquote, dd, div, dl, dt, form, li, ol, pre, td, th, ul {
+    margin: 0;
+    padding: 0;
+    color: $font-color;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+}
+
+.mb-spacer {
+   margin-bottom: 28px;
+}
+
+@include media('<=xl') {
+
+    .mb-spacer {
+       margin-bottom: 20px;
+    }
+}
+
+@include media('<md') {
+ 
+}
+
+
+// additional css
+.btn:hover, .btn:active, .btn:visited, .btn:focus {
+ 
+}
+

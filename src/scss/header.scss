@@ -1,0 +1,54 @@
+.header {
+	height: 100px;
+	padding: 25px 0;
+	box-sizing: border-box;
+
+	.container {
+		max-width: 1300px;
+	}
+
+	p {
+		color: $dark;  
+		font-weight: 500;
+		font-size: 0.875em;
+		line-height: 1.57143;
+		font-family: $font-base;
+	}
+
+	.btn { 
+    	max-width: 300px;
+    	display: none;
+    }
+
+	&.sticky {
+	    position: fixed;
+	    width: 100%;
+	    left: 0;
+	    top: 0;
+	    background: #ffffff;
+	    z-index: 999999999;
+
+	    .btn {  
+	    	display: block;
+	    	float: right;
+	    }
+	}
+
+	@include media('<=xl') {
+    	padding: 15px 32px;
+    }
+
+	@include media('<=991px') {
+		padding: 26px 24px;
+	}
+
+    @include media('<md') {
+		height: 84px;
+		padding: 20px 0;
+    	text-align: center;
+
+    	&.sticky {
+		    position: relative; 
+		}
+    }
+}

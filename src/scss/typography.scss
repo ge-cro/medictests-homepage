@@ -1,0 +1,115 @@
+body {
+    font-family: $font-base;
+    font-size: $font-base-size;
+    color: $dark;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    font-family: $font-heading;
+    color: $font-heading-color;
+    font-weight: 700; 
+    -webkit-font-smoothing: antialiased!important;
+    margin: 0;
+    padding: 0;
+}
+
+b {
+   font-weight: 700; 
+}
+
+h1 {  
+   font-weight: 600;
+   font-size: 4.0rem;
+   line-height: 4.8rem;
+   color: $dark;
+
+   @include media('<=lg') {
+        font-size: 3.2rem;
+        line-height: 4.4rem; 
+    }
+
+    @include media('<=sm') {
+        font-size: 2.8rem;
+        line-height: 4.0rem;  
+    }
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 5.7rem;
+    line-height: 100%;
+    @include media('<=lg') {
+        font-size: 1.8rem;
+        line-height: 2.6rem; 
+    }
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    color: $dark;
+
+    span {
+        color: $blue;
+    }
+
+    @include media('<=lg') {
+        font-size: 2.8rem;
+        line-height: 3.6rem; 
+    } 
+ 
+}
+
+h4 {
+   font-size: 2.0rem;
+   line-height: 2.8rem;
+
+   @include media('<=lg') {
+     font-size: 1.8rem;
+     line-height: 2.4rem;
+   }
+}
+ 
+p { 
+    font-family: 'Open Sans';
+    font-size: 1.8rem;
+    line-height: 2.8rem; 
+    font-weight: 400;  
+    color: $dark;
+    margin: 0;
+    padding: 0;
+     
+
+    &.lg {
+        font-size: 1.8rem;
+        line-height: 2.6rem; 
+        @include media('<=lg') {
+            font-size: 1.6rem; 
+        }
+    }
+
+    &.os {
+        font-family: 'Open Sans', sans-serif;
+    }
+ 
+}
+
+hr {
+ 
+}
+
+ul { 
+    li {
+        color: $dark;
+    }
+}
+ 

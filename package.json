@@ -1,0 +1,43 @@
+{
+    "name": "ge-boilerplate",
+    "version": "1.0.0",
+    "description": "static site ge-boilerplate",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "HTML5",
+        "CSS3",
+        "JAVASCRIPT"
+    ],
+    "author": "Grow Enrollments",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.10.4",
+        "@babel/preset-env": "^7.10.4",
+        "autoprefixer": "^9.8.4",
+        "browser-sync": "^2.26.7",
+        "cors": "^2.8.5",
+        "cssnano": "^4.1.10",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-csso": "^4.0.1",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-newer": "^1.4.0",
+        "gulp-postcss": "^8.0.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify-es": "^2.0.0",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.77.8"
+    },
+    "dependencies": {
+        "bootstrap": "^5.0.2",
+        "gulp-connect": "^5.7.0",
+        "include-media": "^1.4.9",
+        "jquery": "^3.5.1"
+    }
+}
