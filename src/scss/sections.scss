@@ -129,7 +129,7 @@
 	}
 
 	&-emstutor {
-		padding: 80px 0px 135px;
+		padding: 72px 0px 135px;
 		background: $alice-blue;
 
 		h2.title {
@@ -228,19 +228,20 @@
 
 		#pass-guarantee {
 			position: relative;
-			max-width: 1032px;
-			height: 285px;
+			max-width: 840px;
+			left: 40px;
+			height: 269px;
 			margin: 0 auto;
 			display: flex;
 			align-items: center;
 			gap: 14px;
-			margin-top: 145px;
+			margin-top: 180px;
 			&::before {
 				content: "";
 				display: block;
 				height: 380px;
 				position: absolute;
-				left: 532px;
+				left: 56px;
 				right: clamp(-36px, -3%, -20px);
 				top: calc(50% - 7px);
 				transform: translateY(-50%);
@@ -255,8 +256,8 @@
 				background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="71" height="94" viewBox="0 0 71 94" fill="none"><rect y="48" width="71" height="4" fill="%23E9F7FF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M71 49.0128L68.2691 49C67.9991 49 67.7591 49.25 67.6091 49.47L64.9191 53.43L61.7391 47.64C61.5791 47.36 61.2691 47.19 60.9491 47.23C60.6291 47.26 60.3591 47.49 60.2691 47.8L57.8991 55.55L55.4491 41.02C55.3891 40.64 55.0691 40.36 54.6891 40.35C54.3091 40.34 53.9691 40.59 53.8791 40.96L48.7791 61.91L45.2191 32.81C45.1691 32.41 44.8291 32.1 44.4291 32.1C44.0291 32.1 43.6891 32.4 43.6291 32.8L36.8291 85.76L29.2791 0.74C29.2391 0.33 28.9091 0.02 28.5091 0C28.1091 0 27.7491 0.28 27.6891 0.68L17.9391 62.16L14.4291 37.83C14.3691 37.44 14.0391 37.14 13.6491 37.14H13.6391C13.2491 37.14 12.9191 37.42 12.8491 37.81L9.6091 56.56L7.25909 42.63C7.19909 42.3 6.9391 42.03 6.6091 41.97C6.2791 41.91 5.93907 42.06 5.76907 42.36L1.8891 49.02H0V50.73H2.28909C2.56909 50.73 2.8391 50.58 2.9791 50.33L6.02908 45.08L8.78909 61.46C8.85909 61.85 9.18907 62.13 9.57907 62.13C9.96907 62.13 10.2991 61.85 10.3691 61.46L13.5491 43.06L17.0891 67.62C17.1491 68.01 17.4791 68.31 17.8791 68.31C18.2691 68.31 18.6091 68.02 18.6691 67.63L28.2391 7.33L35.8591 93.25C35.8991 93.66 36.2391 93.98 36.6391 93.99H36.6591C37.0591 93.99 37.3991 93.69 37.4591 93.29L44.3791 39.35L47.6991 66.47C47.7491 66.86 48.0591 67.15 48.4491 67.18C48.8491 67.2 49.1791 66.94 49.2791 66.57L54.4991 45.14L56.8691 59.18C56.9291 59.55 57.2391 59.83 57.6091 59.85C57.9891 59.88 58.3191 59.64 58.4291 59.28L61.2291 50.09L64.1291 55.36C64.2591 55.61 64.5191 55.76 64.7891 55.78C65.0691 55.78 65.3291 55.66 65.4891 55.43L68.6791 50.74H71V49.0128Z" fill="%237BC6FF"/></svg>') no-repeat;
 				background-size: contain;
 				position: absolute;
-				top: -104px;
-				right: 109px;
+				top: -111.5px;
+				right: 330px;
 				z-index: 10;
 			}
 			.pass-guarantee {
@@ -279,7 +280,7 @@
 						justify-content: center;
 						position: absolute;
 						top: 50%;
-						left: 317px;
+						left: -95px;
 						transform: translateY(-50%);
 						z-index: 100;
 					}
@@ -296,7 +297,7 @@
 					justify-content: center;
 					h2 {
 						font-family: $font-base;
-						font-size: 1.5em;
+						font-size: 2em;
 						line-height: 1.16667;
 						color: #FFF;
 						margin-bottom: 14px;
@@ -306,7 +307,7 @@
 						line-height: 1.5;
 						color: #FDFDFD;
 						margin: 0;
-						max-width: 400px;
+						max-width: 622px;
 					}
 
 				}
@@ -331,6 +332,7 @@
 				align-items: flex-start;
 				margin: 90px auto 0;
 				max-width: 704px;
+				left: 0px;
 				&::before {
 					height: 380px;
 					top: calc(50% - 17px);
@@ -339,7 +341,7 @@
 				}
 				&::after {
 					top: -82px;
-					right: 156px;
+					right: 224px;
 				}
 				.pass-guarantee {
 					&-image {
@@ -350,15 +352,16 @@
 						width: 154px;
 						&-wrapper {
 							padding: 18px 12px;
-							top: 68%;
-							left: 22px;
+							top: 45%;
+							left: -25px;
 						}
 					}
 					&-text-wrapper {
-						max-width: 440px;
+						max-width: 560px;
 						padding: 42px;
 						height: unset;
-						margin-top: 25px;
+						margin-top: 40px;
+						margin-left: 128px;
 
 					}
 				}
@@ -383,7 +386,7 @@
 				}
 				&::after {
 					top: -76px;
-					right: 111px;
+					right: calc(50% - 35px);
 				}
 				.pass-guarantee {
 					&-image {
@@ -393,7 +396,7 @@
 					&-logo {
 						width: 161px;
 						&-wrapper {
-							top: clamp(19%,19% + 50 * (100vw - 320px)/65,35%);
+							top: 32px;
 							left: 50%;
 							transform: translateX(-50%);
 							padding: 20px 16px;
@@ -402,7 +405,7 @@
 					&-text-wrapper {
 						padding: 58px 34px 33px;
 						text-align: center;
-						margin-top: 0;
+						margin: 180px 0 0;
 						h2 {
 							font-size: 1.5em;
 							line-height: 1.16667;
@@ -440,7 +443,7 @@
 	}
 
 	&-emssoftware {
-		padding: 80px 0px 135px;
+		padding: 72px 0px 80px;
 
 		h2.title {
 			font-size: 2.25em;
@@ -539,7 +542,7 @@
 		}
 
 		@include media('<=991px') {
-			padding: 58px 32px 53px;
+			padding: 58px 32px 64px;
 
 			h2.title {
 				font-size: 1.75em;
@@ -623,7 +626,7 @@
 	}
 
 	&-nremtexam {
-		padding: 80px;
+		padding: 72px 80px 80px;
 		background: #F7FBFF;
 
 		h2.title {
@@ -707,7 +710,7 @@
 			h2.title {
 				font-size: 1.5em;
 				line-height: 1.16667;
-				max-width: 400px;
+				max-width: 315px;
 				margin-bottom: 18px;
 			}
 
@@ -740,7 +743,7 @@
 
 	&-testimonials {
 		background: #0082D2;
-		padding:  80px 80px 90px;
+		padding:  72px 80px 80px;
 		overflow: hidden;
 		.container {
 			max-width: 1300px;
@@ -901,7 +904,7 @@
 	}
 
 	&-faq {
-		padding: 80px 80px 92px;
+		padding: 80px;
 		.box {
 			background: #E9F7FF;
 			border-radius: 40px;
@@ -989,7 +992,7 @@
 		}
 		
 		@include media('<=991px') {
-			padding: 63px 32px 92px;
+			padding: 64px 32px 64px;
 
 			.box {
 				padding: 55px 64px 53px;
