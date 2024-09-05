@@ -146,6 +146,16 @@ function browser() {
 
 exports.siteImg = siteImg;
 
+exports.build = async () => {
+    await vendorCss();
+    await vendorJs();
+    await siteJs();
+    await siteCss();
+    await sitePHP();
+    await siteImg();
+    await siteFont();
+}
+
 exports.default = () => {
     vendorCss();
     vendorJs();
