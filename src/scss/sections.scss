@@ -129,13 +129,13 @@
 	}
 
 	&-emstutor {
-		padding: 72px 0px 135px;
+		padding: 80px 0px 135px;
 		background: $alice-blue;
 
 		h2.title {
 			font-size: 2.25em;
 			line-height: 1.16667;
-			max-width: 820px;
+			max-width: 600px;
 			span.highlight {
 				color: $blue;
 			}
@@ -197,6 +197,7 @@
 					}
 					&.collapsing, &:not(.collapsed) {
 						border-color: $borderColor !important;
+						color: #030303;
 					}
 				}
 				&-body {
@@ -272,7 +273,7 @@
 					height: auto;
 					&-wrapper {
 						border: 1px solid #B9E4FF;
-						background-color: #E7F5FF;
+						background-color: #FFF;
 						padding: 29px 20px;
 						border-radius: 20px;
 						display: flex;
@@ -283,6 +284,7 @@
 						left: -95px;
 						transform: translateY(-50%);
 						z-index: 100;
+						box-shadow: 0px 0px 20px 0px rgba(3, 3, 3, 0.10);						
 					}
 				}
 				&-text-wrapper {
@@ -324,24 +326,24 @@
 			}
 
 			p.subtitle {
-				max-width: 630px;
+				max-width: 850px;
 			}
 
 			#pass-guarantee {
-				height: 348px;
+				height: 293px;
+				max-width: 904px;
 				align-items: flex-start;
-				margin: 90px auto 0;
-				max-width: 704px;
+				margin: 78px auto 0;
 				left: 0px;
 				&::before {
-					height: 380px;
-					top: calc(50% - 17px);
-					right: 2px;
-					left: 106px;
+					height: 370px;
+					top: calc(50% + 7px);
+					right: 0px;
+					left: 135px;
 				}
 				&::after {
 					top: -82px;
-					right: 224px;
+					right: 334px;
 				}
 				.pass-guarantee {
 					&-image {
@@ -349,20 +351,18 @@
 						height: 230px;
 					}
 					&-logo {
-						width: 154px;
+						width: 182px;
 						&-wrapper {
-							padding: 18px 12px;
-							top: 45%;
-							left: -25px;
+							padding: 30px 7px 30px 22px;
+							top: 50%;
+							left: 0px;
 						}
 					}
 					&-text-wrapper {
-						max-width: 560px;
-						padding: 42px;
-						height: unset;
-						margin-top: 40px;
-						margin-left: 128px;
-
+						padding: 0px 47px 0px 170px;
+						margin-top: 17px;
+						margin-left: 89px;
+						margin-right: 27px;
 					}
 				}
 			}
@@ -501,7 +501,7 @@
 					
 					picture {
 						flex-grow: 0;
-						flex-basis: 82.25%;
+						flex-basis: 61.75%;
 					}
 				}
 			}
