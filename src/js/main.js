@@ -83,18 +83,18 @@ $(document).ready(function () {
    });
 
 
-  var fromOffset = jQuery(".section.section-statistics").offset().top;
-  var toOffset = jQuery(".section.section-joinmedictests").offset().top;
-  var w = jQuery(window).scroll(function() {
-    let wScrollTop = w.scrollTop();
-     if (wScrollTop > fromOffset && wScrollTop <= toOffset) { 
-       jQuery('.header').addClass('sticky');
-       jQuery('.section-footer').addClass('sticky');
-     } else { 
-       jQuery('.header').removeClass('sticky');
-       jQuery('.section-footer').removeClass('sticky');
-     } 
+  jQuery(window).scroll(function() {
+    var wScrollTop = jQuery(this).scrollTop();  // Correctly use jQuery(this) to get the window's scroll position
+    var fromOffset = jQuery(".section.section-statistics").offset().top;
+    var toOffset = jQuery(".section.section-joinmedictests").offset().top;
 
+    if (wScrollTop > fromOffset && wScrollTop <= toOffset) { 
+        jQuery('.header').addClass('sticky');
+        jQuery('.section-footer').addClass('sticky');
+    } else { 
+        jQuery('.header').removeClass('sticky');
+        jQuery('.section-footer').removeClass('sticky');
+    } 
   });
 
  
