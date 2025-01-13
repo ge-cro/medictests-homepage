@@ -1,7 +1,8 @@
 .header {
-	height: 100px;
-	padding: 15px 0 25px;
+	min-height: 100px;
+	padding: 24px 0 20px;
 	box-sizing: border-box;
+	border-bottom: 1px solid #F7F7F7;
 
 	.container {
 		max-width: 1300px;
@@ -20,6 +21,33 @@
     	display: none;
     }
 
+	.login-container {
+		display: flex;
+		align-items: center;
+		float: right;
+
+		img {
+			margin-right: 8px;
+		}
+
+		p, a {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		p {
+			color: #030303;
+			font-weight: 400;
+		}
+
+		 a {
+			color: #0082D2;
+			font-weight: 600;
+			text-decoration: none;
+		 }
+	}
+
 	&.sticky {
 	    position: fixed;
 	    width: 100%;
@@ -32,6 +60,10 @@
 	    	display: block;
 	    	float: right;
 	    }
+
+		.login-container {
+			display: none;
+		}
 	}
 
 	@include media('<=xl') {
@@ -43,9 +75,25 @@
 	}
 
     @include media('<md') {
-		height: 84px;
-		padding: 20px 0;
+		min-height: 116px;
+		padding: 14px 0 15px;
     	text-align: center;
+		border-bottom: 1px solid #D9DADC;
+
+		.logo {
+			gap: 8px;
+			
+			& > .col-md-6:first-of-type > img {
+				width: auto;
+				height: 32px;
+			}
+		}
+
+
+		.login-container {
+			float: unset;
+			justify-content: center;
+		}
 
     	&.sticky {
 		    position: relative; 

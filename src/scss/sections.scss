@@ -536,6 +536,15 @@
 							color: #030303;
 						}
 					}
+
+					a.btn {
+						width: fit-content;
+						font-size: 16px;
+						align-self: flex-start;
+						padding: 13px 64px;
+						height: auto;
+						line-height: 24px;
+					}
 				}
 			}
 
@@ -1056,7 +1065,7 @@
 
 	&-joinmedictests {
 		padding: 80px;
-		background: #F7FCFF;
+		background: #E9F7FF;
 		$maxWidth: 550px;
 
 		.col {

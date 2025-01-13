@@ -1,0 +1,25 @@
+footer {
+    color: #6C757D!important;
+    font-family: 'Open Sans', sans-serif;
+    .text-muted {
+        color: #6C757D!important;
+    }
+    a {
+        color: #0082D2;
+        text-decoration: none !important;
+        background-color: transparent
+    }
+    p {
+        line-height: 1.375;
+        &::before, &::after {
+            content: none;
+        }
+    }
+    p, small, div {
+        color: inherit;
+    }
+    h6 {
+        color: #0082d2;
+        font-size: 1em;
+    }
+}
