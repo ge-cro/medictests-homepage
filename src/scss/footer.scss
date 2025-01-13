@@ -1,11 +1,15 @@
 footer {
     color: #6C757D!important;
     font-family: 'Open Sans', sans-serif;
+
     .text-muted {
-        color: #6C757D!important;
+        color: #6A6A6A!important;
+    }
+    .copyrightTxt {
+        color: #030303;
     }
     a {
-        color: #0082D2;
+        color: #030303;
         text-decoration: none !important;
         background-color: transparent
     }
@@ -19,7 +23,40 @@ footer {
         color: inherit;
     }
     h6 {
-        color: #0082d2;
+        color: #0082D2;
+        font-weight: 500;
         font-size: 1em;
+    }
+    .first-col {
+        gap: 20px;
+        .socials {
+            flex-grow: 1;
+            display: flex;
+            gap: 9px;
+        }
+    }
+    .footerlinks {
+        a {
+            font-size: 14px;
+            line-height: 1.47;
+        }
+    }
+
+}
+
+.copyrightOnly {
+    background-color: #0082D2;
+    padding: 12px 0 9px;
+    p {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    a {
+        color: #FFF;
+        text-decoration: none;
     }
 }
